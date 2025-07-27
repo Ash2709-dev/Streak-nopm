@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Streak Master - Pricing</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <section class="py-16 px-4 max-w-6xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-12">💸 Choose Your Plan</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Free Plan -->
+      <div class="bg-white rounded-2xl shadow-md p-6 text-center">
+        <h2 class="text-2xl font-bold mb-2">🔥 Free Plan</h2>
+        <p class="text-xl font-semibold mb-4">$0 / forever</p>
+        <ul class="text-left space-y-2 mb-6">
+          <li>✅ Basic Streak Counter</li>
+          <li>✅ 3 Motivational Messages/Day</li>
+          <li>✅ Weekly Summary</li>
+        </ul>
+        <button class="bg-gray-300 text-gray-800 font-semibold px-4 py-2 rounded-lg cursor-default">Your Current Plan</button>
+      </div><!-- Basic Plan -->
+  <div class="bg-blue-100 rounded-2xl shadow-lg p-6 text-center">
+    <h2 class="text-2xl font-bold mb-2">💪 Basic Plan</h2>
+    <p class="text-xl font-semibold mb-4">$5/month or $12/90 days</p>
+    <ul class="text-left space-y-2 mb-6">
+      <li>🚀 All Free Features</li>
+      <li>🎯 Custom Streak Goals</li>
+      <li>🧰 Distraction Toolkit</li>
+      <li>📊 Extended Analytics</li>
+    </ul>
+    <button class="bg-blue-600 text-white font-semibold px-4 py-2 rounded-lg hover:bg-blue-700">Upgrade to Basic</button>
+  </div>
+
+  <!-- Advanced Plan -->
+  <div class="bg-yellow-100 rounded-2xl shadow-lg p-6 text-center">
+    <h2 class="text-2xl font-bold mb-2">🚀 Advanced Plan</h2>
+    <p class="text-xl font-semibold mb-4">$9/month or $25/lifetime</p>
+    <ul class="text-left space-y-2 mb-6">
+      <li>🚀 All Basic Features</li>
+      <li>🤖 24/7 Urge-SOS AI Chat</li>
+      <li>📈 Personalized Insights</li>
+      <li>👥 VIP Community Access</li>
+      <li>🏆 Milestone Badges</li>
+    </ul>
+    <button class="bg-yellow-500 text-white font-semibold px-4 py-2 rounded-lg hover:bg-yellow-600">Go Advanced</button>
+  </div>
+</div>
+
+  </section>
+</body>
+</html>
